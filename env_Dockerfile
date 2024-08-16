@@ -1,0 +1,5 @@
+FROM ubuntu:18.04
+RUN apt update -y
+ENV name="siva"
+ENV course=docker
+CMD echo "your name is $name, welcome to $course"
