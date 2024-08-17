@@ -1,0 +1,6 @@
+FROM ubuntu:18.04
+RUN apt update
+RUN mkdir -p ~/new-dir
+RUN useradd -m -s /bin/bash siva
+USER siva
+RUN mkdir -p ~/sree
